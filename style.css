@@ -14,3 +14,33 @@
 html {
   font-size: 10px;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  height: 8rem;
+  background-color: aqua;
+}
+
+main {
+  flex-grow: 1;
+  background-color: crimson;
+}
+
+footer {
+  height: 10rem;
+  background-color: blueviolet;
+}
+
+aside {
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  height: 4rem;
+  width: 14rem;
+  background-color: gray;
+}
