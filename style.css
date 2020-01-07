@@ -85,11 +85,20 @@ footer {
   background-color: blueviolet;
 }
 
+/* aside */
+
 aside {
   position: absolute;
   right: 5%;
   bottom: 0;
+}
+
+aside button {
   height: 4rem;
-  width: 14rem;
-  background-color: gray;
+  width: 12rem;
+  font-size: 1.4rem;
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(107, 108, 114);
+  color: #fff;
 }
