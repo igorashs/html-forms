@@ -19,14 +19,10 @@ html {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 1rem 4rem 3rem;
+  padding: 1rem 3rem 2rem;
 }
 
 /* header */
-
-header {
-  height: 7rem;
-}
 
 .sign-in-container {
   display: grid;
@@ -77,6 +73,7 @@ header {
 
 main {
   flex-grow: 1;
+  margin: 2rem 0;
   background-color: crimson;
 }
 
