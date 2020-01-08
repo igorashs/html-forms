@@ -15,6 +15,10 @@ html {
   font-size: 10px;
 }
 
+body {
+  background-color: rgb(236, 238, 241);
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
