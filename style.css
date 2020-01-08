@@ -11,6 +11,10 @@
   color: rgb(82, 82, 82);
 }
 
+ul li {
+  list-style-type: none;
+}
+
 html {
   font-size: 10px;
 }
@@ -75,10 +79,97 @@ body {
   background-repeat: no-repeat;
 }
 
+/* main */
+
 main {
   flex-grow: 1;
   margin: 2rem 0;
-  background-color: crimson;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  padding: 30px;
+  width: 380px;
+  border-radius: 2px;
+  border: 1px solid rgb(180, 180, 180);
+  background-color: #fff;
+}
+
+form .title {
+  text-align: center;
+}
+
+form .title p {
+  padding-top: 20px;
+  font-size: 1.3rem;
+}
+
+form .title a {
+  font-size: 1.2rem;
+}
+
+form .title p,
+.input-info,
+form label {
+  color: rgb(64, 64, 64);
+}
+
+form h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+form a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+}
+
+form li {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+form label {
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+}
+
+.input-info {
+  padding-top: 4px;
+}
+
+form input {
+  padding: 6px;
+  font-size: 1.6rem;
+  border-radius: 3px;
+  border: 1px solid rgb(180, 180, 180);
+  color: #000;
+}
+
+form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  background-color: rgb(0, 119, 197);
+}
+
+form button span {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.terms {
+  padding: 40px 0px;
+  text-align: center;
+  line-height: 2;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: rgb(117, 117, 117);
 }
 
 /* footer */
