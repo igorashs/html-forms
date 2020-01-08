@@ -141,6 +141,7 @@ form label {
 
 form input {
   padding: 6px;
+  padding-right: 40px;
   font-size: 1.6rem;
   border-radius: 3px;
   border: 1px solid rgb(180, 180, 180);
