@@ -147,6 +147,13 @@ form input {
   color: #000;
 }
 
+input[type='password'] {
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 96%;
+}
+
 form button {
   display: flex;
   align-items: center;
