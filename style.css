@@ -109,7 +109,6 @@ form .title a {
 }
 
 form .title p,
-.input-info,
 form label {
   color: rgb(64, 64, 64);
 }
@@ -136,7 +135,7 @@ form label {
 }
 
 .input-info {
-  padding-top: 4px;
+  padding-top: 6px;
 }
 
 form input {
