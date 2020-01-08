@@ -208,7 +208,7 @@ footer a:focus {
 /* aside */
 
 aside {
-  position: absolute;
+  position: fixed;
   right: 5%;
   bottom: 0;
 }
