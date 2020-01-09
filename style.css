@@ -179,6 +179,20 @@ form button span {
   color: rgb(117, 117, 117);
 }
 
+form footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -30px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  background-color: rgb(236, 238, 241);
+}
+
+form footer p {
+  color: rgb(141, 144, 150);
+}
+
 /* footer */
 
 footer {
