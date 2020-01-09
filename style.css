@@ -120,10 +120,6 @@ main {
   height: 24px;
 }
 
-.sub-logo li + li {
-  margin-left: 10px;
-}
-
 .sub-logo i {
   position: absolute;
   visibility: hidden;
@@ -135,7 +131,7 @@ main {
 }
 
 .logo-text {
-  margin-left: 3px;
+  margin: 0 10px 0 3px;
 }
 
 i.mint-logo {
